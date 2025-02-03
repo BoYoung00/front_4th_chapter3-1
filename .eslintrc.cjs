@@ -20,6 +20,7 @@ module.exports = {
     ecmaVersion: 2022,
   },
   rules: {
+    'prettier/prettier': ['error', { endOfLine: 'lf' }],
     'no-unused-vars': 'warn',
     'react/prop-types': 'off',
     'import/order': [
